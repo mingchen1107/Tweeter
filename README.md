@@ -3,7 +3,7 @@
 TrickTweet is a Character Language Model which takes in a user's Twitter Handle (gathers tweets using the [tweepy](https://www.tweepy.org/) API) and generates tweets that sound like them. 
 
 I chose to use a Character Model over a Language Model for a few reasons:
-- Character Models take up considerablly less space. For any decent word model to work, it would need to have a large vocabulary and would have to have a size in the order of 1000s. For Character Models, there are < 100 characters that are feasibilly considered. This makes our vocabulary much smaller and lets us consider more samples
+- Character Models take up considerablly less space. For any decent word model to work, it would need to have a large vocabulary and would have to have a size in the order of thousands. For Character Models, there are < 100 characters that are feasibilly considered. This makes our vocabulary much smaller and lets us consider more samples
 - Character Models allowed me to consider non english words or words that were not previously encountered. With Word Models, I would be limitted to only words that I had seen in my training data. It would be possible to come up with an "Unknown" token but this would mean that all words that are unknown would have the same meaning and weight by the models definition.
 
 You have a few options when running the notebook:

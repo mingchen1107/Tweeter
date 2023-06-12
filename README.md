@@ -1,6 +1,6 @@
 # Tweeter
 
-TrickTweet is a Character Language Model which takes in a user's Twitter Handle (gathers tweets using the [tweepy](https://www.tweepy.org/) API) and generates tweets that sound like them. 
+Tweeter is a Character Language Model which takes in a user's Twitter Handle (gathers tweets using the [tweepy](https://www.tweepy.org/) API) and generates tweets that sound like them. 
 
 I chose to use a Character Model over a Language Model for a few reasons:
 - Character Models take up considerablly less space. For any decent word model to work, it would need to have a large vocabulary and would have to have a size in the order of thousands. For Character Models, there are < 100 characters that are feasibilly considered. This makes our vocabulary much smaller and lets us consider more samples
